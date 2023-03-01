@@ -26,6 +26,53 @@ body {
     color: #f9faf8;
 }
 
+.hero {
+    display: flex;
+    background-color: #1f2937;
+    padding: 128px 15%;
+    gap: 64px;
+}
+
+.hero .message, .hero .image {
+    flex: 1;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.image {
+    background-color: #6d747d;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.message button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 8px 32px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
 ul {
     list-style: none;
     display: flex;
