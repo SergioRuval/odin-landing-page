@@ -67,10 +67,108 @@ body {
     padding: 8px 32px;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 20%;
+}
+
+.row-list .list {
+    display: flex;
+    gap: 32px;
+    padding: 64px 0px;
+}
+
+.row-list .list .item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.item-image {
+    height: 150px;
+    border-radius: 25px;
+    border: solid 3px #3882f6;
+}
+
+.item-message {
+    text-align: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 128px 22%;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.action {
+    padding: 96px 15%;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882f6;
+    padding: 48px 96px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.call-to-action .message {
+    flex: 1;
+}
+
+.call-to-action .message p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.call-to-action .button button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 8px 32px;
+}
+
 h1 {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+h3 {
+    font-size: 24px;
+    color: white;   
 }
 
 ul {
